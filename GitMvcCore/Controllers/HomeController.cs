@@ -10,6 +10,8 @@ namespace GitMvcCore.Controllers
 {
     public class HomeController : Controller
     {
+
+        /*test*/
         public IActionResult Index()
         {
             return View();
