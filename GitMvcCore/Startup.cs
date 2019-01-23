@@ -62,7 +62,7 @@ namespace GitMvcCore
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=HomeAgain}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
