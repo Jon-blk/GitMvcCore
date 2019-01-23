@@ -142,6 +142,8 @@ namespace GitMvcCore.Controllers
             _context.Car.Remove(car);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+
+            /*test*/
         }
 
         private bool CarExists(int id)
