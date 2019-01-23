@@ -20,5 +20,9 @@ namespace GitMvcCore
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+        
+        // Testrad för provning av GitHub
+        // Ny rad...
+
     }
 }
