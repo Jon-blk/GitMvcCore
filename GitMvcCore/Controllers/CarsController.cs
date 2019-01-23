@@ -17,7 +17,7 @@ namespace GitMvcCore.Controllers
         {
             _context = context;
         }
-
+        /*stefan*/
         // GET: Cars
         public async Task<IActionResult> Index()
         {
